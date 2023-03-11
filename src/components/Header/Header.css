@@ -1,0 +1,53 @@
+header{
+    height: 100vh;
+    padding: 100px 0 ;
+}
+header .header-text{
+    margin: 20px 0 ;
+}
+header .header-text h5{
+    font-size: 20px;
+}
+header .header-text h1 span{
+    font-size: 30px;
+}
+header .buttons{
+    margin: 20px 0 ;
+    display: flex;
+    justify-content: center;
+}
+header .buttons a{
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    flex-direction: row;
+    height: 40px;
+    font-size: 18px;
+}
+
+header .me{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+header .me img{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+header .me::before {
+    content:"";
+    position:absolute ;
+    width:100%;
+    height:100%;
+    background-color:#1f96eb;
+    top:0;
+    left:0;
+    padding: 5px;
+    border-radius: 12rem 12rem 0px 0px;
+    border: 5px solid white;
+    z-index: 0;
+}

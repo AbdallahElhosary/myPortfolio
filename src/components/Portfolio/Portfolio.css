@@ -1,0 +1,68 @@
+.website{
+    width: 47%;
+    background-color: #2c2c6c;
+    height: 300px;
+    cursor: pointer;
+    padding:0 15px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 4s;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.website:hover{
+    background-color: #4db5ff;
+}
+
+.website .text{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    text-align: left;
+    width: 250px;
+    transition: all 1s linear; 
+}
+.website img{
+    width: 85%;
+    height: 300px;
+    position: absolute;
+    transition: transform 1s linear 0s ,left 1s linear,top 1s linear 1s;
+
+}
+.website:hover  img{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) ;
+}
+
+.website:hover  .text{
+    left: -200px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.buttons button{
+    
+    height: 40px;
+    margin-left: 10px;
+}
+.buttons button:nth-child(2){
+    width: 120px;
+}
+.buttons a{
+    color:white;
+    text-decoration: none;
+}
+@media (max-width:768px){
+    .website{
+    width: 90%;
+}
+}
+
