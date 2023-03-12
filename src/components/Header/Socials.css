@@ -1,7 +1,7 @@
 .socials{
     position: fixed;
     top:50%;
-    left: 5px;
+    left: 4px;
     transform:translateX(-50%);
     padding-left: 0;
 }
