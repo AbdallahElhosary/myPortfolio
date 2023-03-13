@@ -146,6 +146,10 @@ export const frontSkills = [
     skill: "Redux",
     level:"intermediate"
   },
+  {
+    skill: "Next.js",
+    level:"Experienced"
+  },
 ]
 
 export const AdditionalSkills = [
