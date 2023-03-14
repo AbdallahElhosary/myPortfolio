@@ -15,8 +15,8 @@ export const Websites = [
   {
     "id": 11,
     "name": "Shop",
-    "live": "http://abdallah23.me/Shop",
-    "github":"https://shop-mauve-five.vercel.app/",
+    "live": "https://shop-mauve-five.vercel.app/",
+    "github":"https://github.com/AbdallahElhosary/Shop",
     "skills": ["React" , " CSS "],
     "caption": "This Template i Used React.js",
     "img":shop,
