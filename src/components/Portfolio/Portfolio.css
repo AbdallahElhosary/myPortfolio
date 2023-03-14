@@ -1,3 +1,6 @@
+.portfolio{
+    overflow-x: hidden;
+}
 .website{
     width: 47%;
     background-color: #2c2c6c;
