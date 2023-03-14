@@ -8,9 +8,20 @@ import img7 from "./assets/img7.png";
 import img8 from "./assets/img8.png";
 import img9 from "./assets/img9.png";
 import img10 from "./assets/img10.png";
+import shop from "./assets/shop.png";
 
 
 export const Websites = [
+  {
+    "id": 11,
+    "name": "Shop",
+    "live": "http://abdallah23.me/Shop",
+    "github":"https://shop-mauve-five.vercel.app/",
+    "skills": ["React" , " CSS "],
+    "caption": "This Template i Used React.js",
+    "img":shop,
+    "responsive":true
+  },
   {
     "id": 1,
     "name": "React Template",
