@@ -5,7 +5,6 @@ function Animated() {
     return (
         <div>
             <div className="overlay"></div>
-            <body>
                 <div className="wrapper">
                     <div><span className="dot"></span></div>
                     <div><span className="dot"></span></div>
@@ -23,8 +22,6 @@ function Animated() {
                     <div><span className="dot"></span></div>
                     <div><span className="dot"></span></div>
                 </div>
-            </body>
-
         </div>
     )
 }
