@@ -23,16 +23,6 @@ export const Websites = [
     "responsive":true
   },
   {
-    "id": 12,
-    "name": "Outdoor",
-    "live": "https://outdoor-item.vercel.app/",
-    "github":"https://github.com/AbdallahElhosary/Outdoor",
-    "skills": ["HTML" , "SASS" , "JavaScript", "Bootstrap"],
-    "caption": "This Template i Used HTML , SASS , Javascript",
-    "img":shop,
-    "responsive":true
-  },
-  {
     "id": 1,
     "name": "React Template",
     "live": "http://abdallah23.me/reactTemplate",
