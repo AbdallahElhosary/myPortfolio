@@ -1,6 +1,9 @@
 *{
     padding: 0;
 }
+.about{
+    overflow-x: hidden;
+}
 .photo{
     position: relative;
 }
