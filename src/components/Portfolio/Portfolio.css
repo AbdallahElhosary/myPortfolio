@@ -40,7 +40,7 @@
     left: -200px;
 }
 
-.buttons{
+.git-buttons{
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -48,15 +48,15 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.buttons button{
+.git-buttons button{
     
     height: 40px;
     margin-left: 10px;
 }
-.buttons button:nth-child(2){
+.git-buttons button:nth-child(2){
     width: 120px;
 }
-.buttons a{
+.git-buttons a{
     color:white;
     text-decoration: none;
 }
