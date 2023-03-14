@@ -16,7 +16,7 @@ const Portfolio = () => {
           return <>{s} , </>
       })}</div>
       </div>
-      <div className='buttons '>
+      <div className='git-buttons '>
         <button  className='btn btn-primary'><a href={website.github} target="_blank">Github</a></button>
         <button  className='btn btn-outline-primary'><a  href={website.live} target="_blank">Live Demo</a></button>
         
