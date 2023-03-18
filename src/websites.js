@@ -162,6 +162,10 @@ export const frontSkills = [
     skill: "Next.js",
     level:"Experienced"
   },
+  {
+    skill: "Testing with jest",
+    level:"Experienced"
+  },
 ]
 
 export const AdditionalSkills = [
