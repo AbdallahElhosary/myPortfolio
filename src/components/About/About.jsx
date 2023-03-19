@@ -58,7 +58,7 @@ const About = () => {
                     <div className='col-12'>
                         <p>Nice to meet you</p>
                         <h3>Frontend Web Developer who creates amazing digital experiences!</h3>
-                        <p className='text-white-50'>My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products</p>
+                        <p className='text-white'>My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products</p>
                     </div>
                     <hr />
                     <div className='col-12 d-flex info-section'>
@@ -68,7 +68,7 @@ const About = () => {
                                 <p>Abdallah Elhosary</p>
                             </div>
                             <div className='info col-12 col-md-6'>
-                                <div>Email : </div>
+                                <div>Email:</div>
                                 <p>abdallhelhosary@gmail.com</p>
                             </div>
                             <div className='info col-12 col-md-6'>
@@ -104,9 +104,7 @@ const About = () => {
             </div>
             <Socials />
             <Animated />
-
         </div>
-
     )
 }
 
