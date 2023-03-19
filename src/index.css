@@ -2,7 +2,7 @@
 :root{
     --bg-color:#1f1f38;
     --bg-color-variant:#2c2c6c;
-    --color-primary:#E42391;
+    --color-primary:#FFFADE;
     --color-primary-variant:rgba(77,181,255,0.4);
     --color-white:white;
     --color-light:rgba(255,255,255,0.6);
@@ -28,6 +28,7 @@ body{
     color:var(--color-white);
     line-height: 1.7;
     overflow-x: hidden;
+    position: relative;
 }
 
 
