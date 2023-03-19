@@ -29,7 +29,7 @@ const App = () => {
       {
         loading ?
           <HashLoader
-            style={{margin: "0 auto"}}
+            style={{position:"fixed",top:"50%",left:"50%",transform:"translate(-50%,-50%)"}}
             color="#e78b00"
             loading={loading}
             size={20}
