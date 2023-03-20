@@ -24,6 +24,9 @@ textarea{
     padding:10px 8px;
 
 }
+.row button{
+    background-color: #FEB45F;
+}
  .message{
     height:120px;
     max-height: 120px;
@@ -37,7 +40,7 @@ textarea{
 .information i{
     width: 30px;
     font-size: 30px;
-    color:#198754;
+    color:#FEB45F;
     margin-right:10px;
 }
 .info{
@@ -51,7 +54,7 @@ textarea{
     padding:0;
 }
 .info p a{
-    color: #198754;
+    color: #FEB45F;
     text-decoration: none;
 }
 .info p a:hover{
