@@ -24,7 +24,7 @@ textarea{
     padding:10px 8px;
 
 }
-.row button{
+.row .send{
     background-color: #FEB45F;
 }
  .message{
