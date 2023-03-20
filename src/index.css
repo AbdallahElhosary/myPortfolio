@@ -9,7 +9,7 @@
     --transtion:0.3s;
 }
 ::selection{
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-variant);
 }
 *{
     padding: 0;
