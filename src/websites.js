@@ -166,6 +166,10 @@ export const frontSkills = [
     skill: "Testing with jest",
     level:"Experienced"
   },
+  {
+    skill: "MUI",
+    level:"Experienced"
+  },
 ]
 
 export const AdditionalSkills = [
