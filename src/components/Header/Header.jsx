@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./Header.css";
 import Typewriter from "typewriter-effect";
 import Socials from './Socials';
-import cv from "../../assets/cv.pdf";
+import cv from "../../assets/Abdallah_Elhosary.pdf";
 import img1 from "../../assets/portfolio-4.png";
 import Animated from "../../animatedBG/Animated";
 import "aos/dist/aos.css";
